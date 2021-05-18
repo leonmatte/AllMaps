@@ -1014,3 +1014,34 @@ System memory in use after: 144.8 MB.
 Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3160.
 Total: 17.744400 ms (FindLiveObjects: 0.555700 ms CreateObjectMapping: 0.189400 ms MarkObjects: 7.072400 ms  DeleteObjects: 9.923900 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020023 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.342 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2581 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.7 MB.
+System memory in use after: 144.8 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3163.
+Total: 16.606400 ms (FindLiveObjects: 0.560000 ms CreateObjectMapping: 0.169300 ms MarkObjects: 6.486900 ms  DeleteObjects: 9.386700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
